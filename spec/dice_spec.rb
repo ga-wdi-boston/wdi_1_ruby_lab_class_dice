@@ -10,8 +10,6 @@ RSpec.describe Dice do
     end
   end
 
-
-
   describe '#dice.roll' do
     it 'returns a random number within the scope of the sides of the dice' do
       expect(dice.roll).to be_between(1, dice.sides).inclusive
