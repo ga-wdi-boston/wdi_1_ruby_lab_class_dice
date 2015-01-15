@@ -6,7 +6,7 @@ class Dice
 
 #Random number on a dice
   def roll
-    rand(@sides)
+   rand(1..@sides)
   end
 
 end
